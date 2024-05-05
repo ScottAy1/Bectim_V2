@@ -3376,12 +3376,15 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 4em 0 4.75em 0 ;
+		
+		
 	}
 
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
+		
 		}
 
 		#banner .logo {
@@ -3395,6 +3398,8 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			padding-left: 0;
+			
 		}
 
 			#banner .logo .icon {
@@ -3407,6 +3412,7 @@ input, select, textarea {
 				line-height: 2.25em;
 				text-align: center;
 				width: 2.25em;
+				
 				
 			}
 
@@ -3432,7 +3438,7 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
-			
+			margin-top: 3em;
 		}
 
 		#banner p {
@@ -3493,7 +3499,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 0em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
 			}
 
@@ -3503,6 +3509,7 @@ input, select, textarea {
 
 					#banner .logo .icon {
 						font-size: 1.5em;
+						
 					}
 
 				#banner h2 {
@@ -4007,7 +4014,6 @@ input, select, textarea {
 		}
 
 /* Footer */
-
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
@@ -4022,8 +4028,11 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0 auto;
+		margin: 0 AUTO;
+		padding-left: 20PX;
 		width: 55em;
+		background-color:rgba(0, 0, 0, 0.548);
+
 	}
 
 		#footer .inner > * {
