@@ -3491,12 +3491,26 @@ input, select, textarea {
 			#banner {
 				padding: 12em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
+				
 			}
 
-				#banner .inner {
+				#banner .inner  {
 					width: 100%;
+					
 				}
-
+				#banner .icb {
+					
+					height: 5cm;
+					width:  5cm;
+					margin-bottom: 2cm;
+					position: relative;
+				}
+				#banner .icbn {
+					
+					
+					position: relative;
+					
+				}
 		}
 
 		@media screen and (max-width: 736px) {
