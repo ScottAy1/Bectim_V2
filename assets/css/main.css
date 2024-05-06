@@ -2369,6 +2369,10 @@ input, select, textarea {
 			border-radius: 0;
 			padding: 0;
 		}
+		
+		.menu1 {
+			background-color: rgba(0, 0, 0, 0.39);
+		}
 
 /* Icon */
 
