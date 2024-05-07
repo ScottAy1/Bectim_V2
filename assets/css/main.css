@@ -3578,8 +3578,13 @@ input, select, textarea {
 					font-size: 0.8em;
 				}
 				
-
+				 #banner .slogo {
+					img{
+						margin-left: 6em;
+					}
+				}
 		}
+
 
 		body.is-preload #banner .logo {
 			-moz-transform: translateY(0.5em);
