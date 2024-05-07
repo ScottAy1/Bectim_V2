@@ -2374,7 +2374,13 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.39);
 		}
 
+/* slogo */
+.slogo img{
+	margin-left:10%;
+}
+
 /* Icon */
+
 
 	.icon {
 		text-decoration: none;
@@ -3377,6 +3383,25 @@ input, select, textarea {
 			opacity: 1;
 		}
 
+/* slogo */
+#banner {
+
+.slogo {
+	-moz-transition: opacity 2s ease, -moz-transform 1s ease;
+	-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
+	-ms-transition: opacity 2s ease, -ms-transform 1s ease;
+	transition: opacity 2s ease, transform 1s ease;
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+	
+	
+       }
+	
+	}
+
 /* Banner */
 
 	#banner {
@@ -3403,7 +3428,8 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
-			padding-left: 0;
+			
+			
 			
 			
 						}
@@ -3487,6 +3513,11 @@ input, select, textarea {
  center;
 				margin-bottom: -6.5em;
 			}
+			.slogo img {
+				height: 15em;
+				margin-left: 15%;
+				
+			}
 
 		}
 
@@ -3513,6 +3544,12 @@ input, select, textarea {
 					
 					
 					position: relative;
+					
+				}
+				.slogo img {
+					height: 10em;
+					margin-left: 20%;
+					
 					
 				}
 		}
