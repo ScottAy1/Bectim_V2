@@ -3552,6 +3552,7 @@ input, select, textarea {
 					
 					
 				}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3580,7 +3581,8 @@ input, select, textarea {
 				
 				 #banner .slogo {
 					img{
-						margin-left: 6em;
+						margin-left: 10%;
+						background-color: red;
 					}
 				}
 		}
