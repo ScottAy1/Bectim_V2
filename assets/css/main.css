@@ -3582,7 +3582,7 @@ input, select, textarea {
 				
 				 #banner .slogo {
 					img{
-						
+						display: none;
 						background-color: rgb(122, 58, 58);
 					}
 				}
