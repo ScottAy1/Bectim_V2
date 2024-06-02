@@ -3586,7 +3586,7 @@ input, select, textarea {
 						background-position: center;
 						background-repeat: no-repeat;
 						background-size: cover;
-						background-color: rgba(61, 61, 112, 0.548);
+						background-color: rgba(61, 61, 112, 0);
 					}
 				}
 		}
