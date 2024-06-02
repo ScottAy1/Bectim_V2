@@ -3582,8 +3582,8 @@ input, select, textarea {
 				
 				 #banner .slogo {
 					img{
-						margin-left: 10%;
-						background-color: rgba(57, 51, 119, 0.356);
+						
+						background-color: rgb(255, 0, 0);
 					}
 				}
 		}
