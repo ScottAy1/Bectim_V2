@@ -2499,7 +2499,15 @@ input, select, textarea {
 				}
 
 	dl {
-		margin: 0 0 2em 0;
+		list-style: disc;
+		list-style: circle;
+		font-weight: bold;
+	}
+	dl li{
+		list-style-type: disc;
+		list-style:circle;
+		font-weight: lighter;
+		margin: 0em 0em 0em 1em;
 	}
 
 		dl dt {
