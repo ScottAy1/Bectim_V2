@@ -395,6 +395,24 @@ h6 span {
 	font-weight: 200;
 }
 
+h2.major1 {
+
+	font-size: 1.2em;
+	color: rgb(255, 255, 255);
+	padding-left: 1em;
+	padding-bottom: 1em;
+	border-bottom: solid 2px rgba(255, 255, 255, 0.199);
+	cursor: pointer;
+
+}
+
+.major1:hover {
+
+	background-color: #26075f8e;
+	
+}
+
+
 h1.major,
 h2.major,
 h3.major,
@@ -2597,6 +2615,22 @@ input[type="radio"]+label:before {
 	width: 100%;
 }
 
+/* Collapse */
+.panel .content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
+}
+
+.collapsible {
+	background-color: rgba(139, 139, 139, 0.212);
+	padding: 7px 0px 0px 0px;
+	border-radius: 0%;
+	pointer-events: all;
+
+}
+
+
 /* List */
 .ourrole {
 	font-family: Raleway, Helvetica, sans-serif;
@@ -3156,6 +3190,25 @@ button:disabled,
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin: 0 0 2em 0;
+}
+.features1 {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 0 2em 0;
+}
+
+.features1 article {
+	background-color: #353849;
+	padding: 1.75em 1.75em 0.1em 1.75em;
+	border-radius: 5px;
+	margin: 1.5em 3em 1.5em 0;
+	width: calc(100% - 1.5em);
 }
 
 .features article {
